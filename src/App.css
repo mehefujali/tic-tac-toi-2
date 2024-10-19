@@ -1,0 +1,15 @@
+button {
+  width: 100px;
+  height: 100px;
+  font-size: xx-large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: fit-content;
+}
